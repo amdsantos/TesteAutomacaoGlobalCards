@@ -1,0 +1,15 @@
+{
+  "name": "cypress-express",
+  "version": "1.0.0",
+  "devDependencies": {
+    "cypress": "^13.17.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDeFinitions": true,
+    "stepDefinitions": "cypress/e2e/step_definitions/Web"
+  },
+  "dependencies": {
+    "cypress-file-upload": "^5.0.8"
+  }
+}
